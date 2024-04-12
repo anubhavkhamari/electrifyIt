@@ -1,0 +1,36 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .frequency{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frequency > button{
+    font-size: 15px;
+    background: rgba(8, 103, 255, 0.863);
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
